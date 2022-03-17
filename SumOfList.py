@@ -1,5 +1,8 @@
 def sum_of_list(list1):
-    return sum(list1)
+    sumarry = 0
+    for l in list1:
+        sumarry += l
+    return sumarry
 list1 = []
 while True:
     number = input("請輸入一個整數計算加總，若要離開則輸入q: ")
